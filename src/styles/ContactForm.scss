@@ -5,6 +5,7 @@
   font-size: 1.1rem;
   text-align: justify;
   line-height: 30px;
+  margin-left: 3%;
 }
 
 .form-container {
@@ -14,7 +15,7 @@
   align-items: center;
 
   input {
-    width: 28%;
+    width: 30%;
     height: 30px;
   }
 
@@ -40,4 +41,42 @@
 .sucess-title {
   padding: 4%;
   color: #fff;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .contact-title {
+    margin-left: 3%;
+  }
+
+  .contact-text {
+    margin-left: 3%;
+  }
+
+  .form-container {
+    label {
+      margin-bottom: 4%;
+      margin-top: 2%;
+    }
+
+    input {
+      width: 90%;
+    }
+
+    button {
+      width: 40%;
+      margin: 5%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .form-container {
+    input {
+      width: 52%;
+    }
+
+    button {
+      width: 35%;
+    }
+  }
 }

@@ -19,7 +19,7 @@
     width: 50%;
     text-align: center;
     padding: 1%;
-    
+
     img {
       width: 80%;
       height: auto;
@@ -37,12 +37,12 @@
     }
 
     .paragraph {
-    color: rgb(161 161 170);
-    width: 90%;
-    padding: 1%;
-    font-size: 1.1rem;
-    text-align: justify;
-    line-height: 1.2rem;
+      color: rgb(161 161 170);
+      width: 90%;
+      padding: 1%;
+      font-size: 1.1rem;
+      text-align: justify;
+      line-height: 1.2rem;
     }
 
     .btn-container {
@@ -73,6 +73,17 @@
             color: #000;
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .project-card {
+    .project-text {
+      .paragraph {
+        font-size: 1rem;
+        line-height: 1.2rem;
       }
     }
   }

@@ -18,3 +18,39 @@
     list-style-type: disclosure-closed;
   }
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+    div {
+      margin-top: 5%;
+    }
+
+    .sub-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 5%;
+    }
+
+    li {
+      color: #fff;
+      padding: 2%;
+      font-size: 1rem;
+      margin-left: 12%;
+      list-style-type: disclosure-closed;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .skill-title {
+    margin-left: 3%;
+  }
+
+  .skills-container {
+    margin-left: 10%;
+  }
+}
