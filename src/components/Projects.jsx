@@ -25,6 +25,7 @@ const Projects = () => {
           {rederedProjects}
         </div>
       </section>
+      <hr />
     </>
   );
 };

@@ -1,0 +1,12 @@
+.aboutme-container {
+  display: flex;
+  align-items: center;
+  
+  .aboutme-text {
+    color: #fff;
+    padding: 1%;
+    text-align: justify;
+    width: 70%;
+    line-height: 1.7em;
+  }
+}
