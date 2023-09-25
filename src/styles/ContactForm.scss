@@ -1,0 +1,43 @@
+.paragraph {
+  color: rgb(161 161 170);
+  width: 90%;
+  padding: 1%;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 28%;
+    height: 30px;
+  }
+
+  button {
+    width: 15%;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #110e0e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #ffa201;
+      color: #110e0e;
+    }
+  }
+}
+
+.sucess-title {
+  padding: 4%;
+  color: #fff;
+}

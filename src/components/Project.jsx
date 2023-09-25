@@ -13,8 +13,8 @@ const Project = ({ name, description, img, link, github }) => {
         <h3 className="sub-title">{name}</h3>
         <p className="paragraph">{description}</p>
         <div className="btn-container">
-          <button><a href={link} target="_blank">Live Demo</a></button>
-          <button><a href={github} target="_blank"><FontAwesomeIcon icon={faGithub} className="fa-xl"/></a></button>
+          <button><a href={link} target="_blank" rel="noreferrer">Live Demo</a></button>
+          <button><a href={github} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className="fa-xl"/></a></button>
         </div>
       </div>
     </div>

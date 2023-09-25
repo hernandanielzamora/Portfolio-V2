@@ -19,7 +19,7 @@ const Projects = () => {
 
   return (
     <>
-      <section>
+      <section id="projects">
         <h2 className="title">Highlighted Projects</h2>
         <div className="project-container">
           {rederedProjects}

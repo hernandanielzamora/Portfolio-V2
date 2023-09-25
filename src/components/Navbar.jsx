@@ -12,7 +12,7 @@ const Navbar = () => {
         </div>
         <div className='links-container'>
           <a href='#projects'><li className='navbar-icon'>Portfolio</li></a>
-          <a href='#about'><li className='navbar-icon'>About</li></a>
+          <a href='#aboutme'><li className='navbar-icon'>About</li></a>
           <a href='#contact'><li className='navbar-icon'>Contact</li></a>
           <a href='mailto:hernandanielzamora@gmail.com'><li className='navbar-icon'><FontAwesomeIcon icon={faEnvelope} className='fa-xl' /></li></a>
         </div>

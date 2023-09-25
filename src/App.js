@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
           <AboutMe />
           <Skills />
           <ContactForm />
+          <Footer />
       </div>
     </>
   );

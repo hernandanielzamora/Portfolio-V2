@@ -27,7 +27,7 @@ const Summary = () => {
 
   return (
     <>
-      <main>
+      <main id="summary">
         <div>
           <h1 className="title">Hernán Zamora</h1>
           <h2 className="title">Software Developer</h2>
@@ -37,8 +37,8 @@ const Summary = () => {
           <div className="contacts">
             <ul className="contacts-container">
               <a href='mailto:hernandanielzamora@gmail.com'><li><FontAwesomeIcon icon={faEnvelope} className='fa-2xl contact-icon' /></li></a>
-              <a href='https://github.com/hernandanielzamora' target="_blank"><li><FontAwesomeIcon icon={faGithub} className='fa-2xl contact-icon'/></li></a>
-              <a href='https://www.linkedin.com/in/zamora-hernan/' target="_blank"><li><FontAwesomeIcon icon={faLinkedin} className='fa-2xl contact-icon'/></li></a>
+              <a href='https://github.com/hernandanielzamora' target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faGithub} className='fa-2xl contact-icon'/></li></a>
+              <a href='https://www.linkedin.com/in/zamora-hernan/' target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faLinkedin} className='fa-2xl contact-icon'/></li></a>
             </ul>
           </div>
         </div>

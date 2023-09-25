@@ -5,7 +5,7 @@ import aboutGif from "../media/gif4-unscreen.gif";
 const AboutMe = () => {
   return (
     <>
-      <section>
+      <section id="aboutme">
         <h2 className="title">About Me</h2>
         <div className="aboutme-container">
           <p className="aboutme-text">
