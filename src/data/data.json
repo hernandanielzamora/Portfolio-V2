@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "How Much?",
+    "description": "This project helps the user keep track of the expenses. The user can add a category and then add a payments inside that category",
+    "img": "https://i.postimg.cc/nXLgL8LL/descarga.png",
+    "link": "https://how-much.onrender.com/",
+    "github": "https://github.com/hernandanielzamora/How-Much"
+  },
+  {
+    "id": 2,
+    "name": "Zeta Store",
+    "description": "A project built for being a full functionall market page. Where the user cand trade (sell or buy) his favourite csgo's skins.",
+    "img": "https://github.com/hernandanielzamora/Zeta-Store/blob/master/media/logo.png?raw=true",
+    "link": "https://zetastore.netlify.app/",
+    "github": "https://github.com/hernandanielzamora/Zeta-Store"
+  },
+  {
+    "id": 3,
+    "name": "Vacay Inn",
+    "description": "Fullstack capstone project. The app is a room reservation website that allows users to sign up and log in to see detailed information about rooms and create reservations for rooms. The data is stored on a back-end server built with Ruby on Rails and displayed on the front end which is built with React. This data is fetched from the API using Redux.",
+    "img": "https://i.postimg.cc/Tys6xdqG/vacayInn.png",
+    "link": "https://vacay-inn.onrender.com/",
+    "github": "https://github.com/hernandanielzamora/Capstone-Front-End"
+  },
+  {
+    "id": 4,
+    "name": "Bloggerly",
+    "description": "Bloggerly Is a classic example of a blog website. This websilte will show the list of posts and will allow users to interact with them by adding comments and liking posts, as any other social website.",
+    "img": "https://cdn-icons-png.flaticon.com/512/124/124022.png",
+    "link": "https://github.com/hernandanielzamora/Bloggerly",
+    "github": "https://github.com/hernandanielzamora/Bloggerly"
+  },
+  {
+    
+    "name": "Recipe App",
+    "description": "Recipe App is a Ruby on Rails application that allows a user to login to a food recipe page where the user can perform actions based on authorization like, add foods and recipes, generate a shopping list, etc.",
+    "img": "https://i.postimg.cc/d0F1n5hS/recipe-app.png",
+    "link": "https://recipe-app-7xhc.onrender.com/",
+    "github": "https://github.com/hernandanielzamora/Recipe-App"
+  }
+]

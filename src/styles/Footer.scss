@@ -1,0 +1,25 @@
+footer {
+  margin-top: 3%;
+  text-align: center;
+  color: rgb(161 161 170);
+
+  .copyright {
+    margin-bottom: 2%;
+  }
+
+  .footer-icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+
+    .contact-icon {
+      color: #fff;
+
+      &:hover {
+        color: #ffa201;
+      }
+    }
+  }
+}

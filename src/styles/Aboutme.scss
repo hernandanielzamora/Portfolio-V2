@@ -1,0 +1,13 @@
+.aboutme-container {
+  display: flex;
+  align-items: center;
+  
+  .aboutme-text {
+    color: rgb(161 161 170);
+    width: 90%;
+    padding: 1%;
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 30px;
+  }
+}

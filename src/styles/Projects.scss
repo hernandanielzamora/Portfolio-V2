@@ -1,0 +1,14 @@
+.project-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+
+  .project-img {
+    width: 50%;
+    text-align: center;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+}

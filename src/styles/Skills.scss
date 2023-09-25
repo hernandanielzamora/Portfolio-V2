@@ -1,0 +1,20 @@
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5%;
+  margin-top: 3%;
+
+  .sub-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 5%;
+  }
+
+  li {
+    color: #fff;
+    padding: 2%;
+    font-size: 1.1rem;
+    margin-left: 7%;
+    list-style-type: disclosure-closed;
+  }
+}
