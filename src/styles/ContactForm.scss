@@ -1,0 +1,82 @@
+.paragraph {
+  color: rgb(161 161 170);
+  width: 90%;
+  padding: 1%;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 30px;
+  margin-left: 3%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 30%;
+    height: 30px;
+  }
+
+  button {
+    width: 15%;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #110e0e;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #ffa201;
+      color: #110e0e;
+    }
+  }
+}
+
+.sucess-title {
+  padding: 4%;
+  color: #fff;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .contact-title {
+    margin-left: 3%;
+  }
+
+  .contact-text {
+    margin-left: 3%;
+  }
+
+  .form-container {
+    label {
+      margin-bottom: 4%;
+      margin-top: 2%;
+    }
+
+    input {
+      width: 90%;
+    }
+
+    button {
+      width: 40%;
+      margin: 5%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .form-container {
+    input {
+      width: 52%;
+    }
+
+    button {
+      width: 35%;
+    }
+  }
+}
