@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Summary.scss";
 import gifImage from "../media/output-onlinegiftools-unscreen.gif";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Summary = () => {
   const [summaryText, setSummaryText] = useState("");
@@ -17,7 +20,7 @@ const Summary = () => {
       } else {
         clearInterval(intervalId);
       }
-    }, 20);
+    }, 15);
 
     return () => clearInterval(intervalId);
   }, []);
@@ -31,12 +34,19 @@ const Summary = () => {
           <div className="summary">
             <p>{summaryText}</p>
           </div>
-          <div className="contacts">Contacts</div>
+          <div className="contacts">
+            <ul className="contacts-container">
+              <a href='mailto:hernandanielzamora@gmail.com'><li><FontAwesomeIcon icon={faEnvelope} className='fa-2xl contact-icon' /></li></a>
+              <a href='https://github.com/hernandanielzamora' target="_blank"><li><FontAwesomeIcon icon={faGithub} className='fa-2xl contact-icon'/></li></a>
+              <a href='https://www.linkedin.com/in/zamora-hernan/' target="_blank"><li><FontAwesomeIcon icon={faLinkedin} className='fa-2xl contact-icon'/></li></a>
+            </ul>
+          </div>
         </div>
         <div className='gif-container'>
           <img src={gifImage} alt="Code Coding GIF" />
         </div>
       </main>
+      <hr />
     </>
   );
 };

@@ -8,6 +8,10 @@
   font-family: 'Merriweather', serif;
 }
 
+body {
+  background-color: #202124;
+}
+
 li {
   list-style: none;
 }
@@ -16,6 +20,24 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-color: #202124;
+hr {
+  width: 90vw;
+  margin: auto;
+  opacity: 0.3;
+}
+
+section {
+  padding: 2%;
+}
+
+.title {
+  padding: 1%;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.sub-title {
+  padding: 1%;
+  font-size: 1rem;
+  color: #fff;
 }

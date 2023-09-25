@@ -5,22 +5,35 @@ main {
   color: #fff;
   display: flex;
 
-  .title {
-    padding: 1%;
-    font-size: 3rem;
-  }
-
   .summary {
     color: rgb(161 161 170);
     width: 90%;
     padding: 1%;
     font-size: 1.1rem;
     text-align: justify;
+    line-height: 30px;
   }
-  
-  .gif-container {
-    img {
-      background-color: transparent;
+
+  .contacts {
+    margin-top: 2%;
+  }
+
+  .contacts-container {
+    display: flex;
+    width: 60%;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: space-between;
+
+    .contact-icon {
+      color: #fff;
+      transition: all 0.2s ease-in-out;
+
+
+      &:hover {
+        transform: scale(1.3);
+        color: #ffa201;
+      }
     }
   }
 }
