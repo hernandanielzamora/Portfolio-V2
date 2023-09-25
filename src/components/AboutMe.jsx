@@ -22,7 +22,7 @@ const AboutMe = () => (
           looking for a web developer who injects energy, enthusiasm, and
           expertise into projects, your quest ends here!
         </p>
-        <img src={aboutGif} alt="Loadder Gif" className="about-img"/>
+        <img src={aboutGif} alt="Loadder Gif" className="about-img" />
       </div>
     </section>
     <hr />
