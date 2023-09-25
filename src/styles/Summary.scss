@@ -1,0 +1,26 @@
+main {
+  margin-top: 10%;
+  padding: 2%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+
+  .title {
+    padding: 1%;
+    font-size: 3rem;
+  }
+
+  .summary {
+    color: rgb(161 161 170);
+    width: 90%;
+    padding: 1%;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  .gif-container {
+    img {
+      background-color: transparent;
+    }
+  }
+}
