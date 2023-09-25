@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
-import "../styles/Summary.scss";
-import gifImage from "../media/output-onlinegiftools-unscreen.gif";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import React, { useEffect, useState } from 'react';
+import '../styles/Summary.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import gifImage from '../media/output-onlinegiftools-unscreen.gif';
 
 const Summary = () => {
-  const [summaryText, setSummaryText] = useState("");
-  const fullSummaryText =
-    "Hey there! I'm Hernán Zamora, a dedicated fullstack developer driven by a relentless passion for learning. Currently pursuing my third year as a software development student, I possess a well-rounded skill set as a fullstack developer.";
+  const [summaryText, setSummaryText] = useState('');
+  const fullSummaryText = 'Hey there! I`m Hernán Zamora, a dedicated fullstack developer driven by a relentless passion for learning. Currently pursuing my third year as a software development student, I possess a well-rounded skill set as a fullstack developer.';
 
   useEffect(() => {
     let currentIndex = 0;
@@ -16,7 +15,7 @@ const Summary = () => {
     const intervalId = setInterval(() => {
       if (currentIndex <= fullSummaryText.length) {
         setSummaryText(fullSummaryText.slice(0, currentIndex));
-        currentIndex++;
+        currentIndex += 1;
       } else {
         clearInterval(intervalId);
       }
@@ -36,13 +35,13 @@ const Summary = () => {
           </div>
           <div className="contacts">
             <ul className="contacts-container">
-              <a href='mailto:hernandanielzamora@gmail.com'><li><FontAwesomeIcon icon={faEnvelope} className='fa-2xl contact-icon' /></li></a>
-              <a href='https://github.com/hernandanielzamora' target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faGithub} className='fa-2xl contact-icon'/></li></a>
-              <a href='https://www.linkedin.com/in/zamora-hernan/' target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faLinkedin} className='fa-2xl contact-icon'/></li></a>
+              <a href="mailto:hernandanielzamora@gmail.com" aria-label="Email"><li><FontAwesomeIcon icon={faEnvelope} className="fa-2xl contact-icon" /></li></a>
+              <a href="https://github.com/hernandanielzamora" target="_blank" rel="noreferrer" aria-label="Github"><li><FontAwesomeIcon icon={faGithub} className="fa-2xl contact-icon" /></li></a>
+              <a href="https://www.linkedin.com/in/zamora-hernan/" target="_blank" rel="noreferrer" aria-label="Linkedin"><li><FontAwesomeIcon icon={faLinkedin} className="fa-2xl contact-icon" /></li></a>
             </ul>
           </div>
         </div>
-        <div className='gif-container'>
+        <div className="gif-container">
           <img src={gifImage} alt="Code Coding GIF" />
         </div>
       </main>

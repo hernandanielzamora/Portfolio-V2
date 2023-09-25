@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Vacay Inn",
-    "description": "Fullstack capstone project. The app is a room reservation website that allows users to sign up and log in to see detailed information about rooms and create reservations for rooms. The data is stored on a back-end server built with Ruby on Rails and displayed on the front end which is built with React. This data is fetched from the API using Redux.",
+    "description": "Room reservation web, allows users to sign up and log in to see detailed data about rooms and create reservations. Counts with a back-end server built with Ruby on Rails. Frontend uses React/Redux.",
     "img": "https://i.postimg.cc/Tys6xdqG/vacayInn.png",
     "link": "https://vacay-inn.onrender.com/",
     "github": "https://github.com/hernandanielzamora/Capstone-Front-End"

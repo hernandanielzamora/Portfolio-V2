@@ -1,13 +1,14 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
-import "../styles/ContactForm.scss";
+/* eslint-disable jsx-a11y/label-has-associated-control */
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import '../styles/ContactForm.scss';
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("xdovglwp");
+  const [state, handleSubmit] = useForm('xdovglwp');
   if (state.succeeded) {
     return (
       <>
-        <h3 className="sucess-title">Thank you for your message. I'll get back to you as soon as possible!</h3>
+        <h3 className="sucess-title">Thank you for your message. I will get back to you as soon as possible!</h3>
         <hr />
       </>
     );
@@ -16,10 +17,10 @@ const ContactForm = () => {
   return (
     <>
       <section id="contact">
-        <h2 className="title">Let's Connect!</h2>
-        <p className="paragraph">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch</p>
+        <h2 className="title contact-title">Lets Connect!</h2>
+        <p className="paragraph contact-text">I am always interested in hearing about new projects, so if you woud like to chat please get in touch</p>
         <form onSubmit={handleSubmit} className="form-container">
-          <label htmlFor="email" className="sub-title">
+          <label htmlFor="email" className="sub-title" aria-label="email">
             Email Address
           </label>
           <input
@@ -29,7 +30,7 @@ const ContactForm = () => {
             placeholder="Email address"
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
-          <label htmlFor="email" className="sub-title">
+          <label htmlFor="message" className="sub-title" aria-label="message">
             Message
           </label>
           <textarea
@@ -38,7 +39,7 @@ const ContactForm = () => {
             cols="45"
             rows="5"
             placeholder="Hello Hernán. I would like to get in touch with you..."
-            maxlength="500"
+            maxLength="500"
           />
           <ValidationError
             prefix="Message"
