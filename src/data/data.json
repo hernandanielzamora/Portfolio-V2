@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "How Much?",
-    "description": "This project helps the user keep track of the expenses. The user can add a category and then add a payments inside that category",
-    "img": "https://i.postimg.cc/BnZh1F6z/howMuch.webp",
+    "description": "This project helps the user keep track of the expenses. The user can add a category and then add a payments inside that category.",
+    "img": "https://i.postimg.cc/90xqBCqG/Any-Conv-com-how-much-onrender-com-groups-12-payments.webp",
     "link": "https://how-much.onrender.com/",
     "github": "https://github.com/hernandanielzamora/How-Much"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Zeta Store",
     "description": "A project built for being a full functionall market page. Where the user cand trade (sell or buy) his favourite csgo's skins.",
-    "img": "https://i.postimg.cc/jjLZMryQ/zetaLogo.webp",
+    "img": "https://i.postimg.cc/SNNPQdS5/Any-Conv-com-zetastore-netlify-app-1.webp",
     "link": "https://zetastore.netlify.app/",
     "github": "https://github.com/hernandanielzamora/Zeta-Store"
   },
@@ -19,17 +19,9 @@
     "id": 3,
     "name": "Vacay Inn",
     "description": "Room reservation web, allows users to sign up and log in to see detailed data about rooms and create reservations. Counts with a back-end server built with Ruby on Rails. Frontend uses React/Redux.",
-    "img": "https://i.postimg.cc/xCmgSyxX/vacayInn.webp",
+    "img": "https://i.postimg.cc/X7f9h666/Any-Conv-com-vacay-inn-onrender-com.webp",
     "link": "https://vacay-inn.onrender.com/",
     "github": "https://github.com/hernandanielzamora/Capstone-Front-End"
-  },
-  {
-    "id": 4,
-    "name": "Bloggerly",
-    "description": "Bloggerly Is a classic example of a blog website. This websilte will show the list of posts and will allow users to interact with them by adding comments and liking posts, as any other social website.",
-    "img": "https://cdn-icons-png.flaticon.com/512/124/124022.png",
-    "link": "https://github.com/hernandanielzamora/Bloggerly",
-    "github": "https://github.com/hernandanielzamora/Bloggerly"
   },
   {
     
