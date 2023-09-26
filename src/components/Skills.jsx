@@ -21,6 +21,7 @@ const Skills = () => (
           <h3 className="sub-title">Frameworks</h3>
           <ul>
             <li>Bootstrap</li>
+            <li>React</li>
             <li>Ruby on Rails</li>
             <li>RSPec</li>
             <li>CapyBara</li>
