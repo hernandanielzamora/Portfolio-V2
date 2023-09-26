@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Zeta Store",
     "description": "A project built for being a full functionall market page. Where the user cand trade (sell or buy) his favourite csgo's skins.",
-    "img": "https://i.postimg.cc/SNNPQdS5/Any-Conv-com-zetastore-netlify-app-1.webp",
+    "img": "https://i.postimg.cc/hGtycb9s/Any-Conv-com-zetastore-netlify-app-1-1.webp",
     "link": "https://zetastore.netlify.app/",
     "github": "https://github.com/hernandanielzamora/Zeta-Store"
   },
@@ -25,10 +25,10 @@
   },
   {
     
-    "name": "Recipe App",
-    "description": "Recipe App is a Ruby on Rails application that allows a user to login to a food recipe page where the user can perform actions based on authorization like, add foods and recipes, generate a shopping list, etc.",
-    "img": "https://i.postimg.cc/NjNd802j/recipe-App.webp",
-    "link": "https://recipe-app-7xhc.onrender.com/",
-    "github": "https://github.com/hernandanielzamora/Recipe-App"
+    "name": "Cripto Currency Tracker",
+    "description": "CCT (CrytpoCurrency Tracker) CCT Is a SPA (single-page application) where you cand find information about the best 30 cryptocurrency at the market right now. Our application fetches the information from an API, and displays it in a well structured page, where the user can also look for a crypto in particular.",
+    "img": "https://i.postimg.cc/4x5LDFhn/Any-Conv-com-cct-onrender-com-1-1.webp",
+    "link": "https://cct.onrender.com/",
+    "github": "https://github.com/hernandanielzamora/Stock-Data"
   }
 ]
