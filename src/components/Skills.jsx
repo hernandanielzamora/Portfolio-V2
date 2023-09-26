@@ -22,7 +22,6 @@ const Skills = () => (
           <ul>
             <li>Bootstrap</li>
             <li>Ruby on Rails</li>
-            <li>Python</li>
             <li>RSPec</li>
             <li>CapyBara</li>
             <li>Selenium</li>
