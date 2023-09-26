@@ -7,10 +7,10 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => (
   <footer>
     <div className="copyright">
-      <h4>© 2023 Hernán D. Zamora. All rights reserved.</h4>
+      <h3 className="footer-title">© 2023 Hernán D. Zamora. All rights reserved.</h3>
     </div>
     <div className="footer-icon-container">
-      <a href="mailto:hernandanielzamora@gmail.com">
+      <a href="mailto:hernandanielzamora@gmail.com" aria-label="Send me an Email">
         <li>
           <FontAwesomeIcon
             icon={faEnvelope}
@@ -18,7 +18,7 @@ const Footer = () => (
           />
         </li>
       </a>
-      <a href="https://github.com/hernandanielzamora" rel="noreferrer" target="_blank">
+      <a href="https://github.com/hernandanielzamora" rel="noreferrer" target="_blank" aria-label="Visit my Github Profile">
         <li>
           <FontAwesomeIcon
             icon={faGithub}
@@ -26,7 +26,7 @@ const Footer = () => (
           />
         </li>
       </a>
-      <a href="https://www.linkedin.com/in/zamora-hernan/" rel="noreferrer" target="_blank">
+      <a href="https://www.linkedin.com/in/zamora-hernan/" rel="noreferrer" target="_blank" aria-label="Visit my linkedin page">
         <li>
           <FontAwesomeIcon
             icon={faLinkedin}
