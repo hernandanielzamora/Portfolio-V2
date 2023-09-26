@@ -30,6 +30,10 @@ footer {
     text-align: center;
     color: rgb(161 161 170);
 
+    .footer-title {
+      font-size: 1rem;
+    }
+
     .footer-icon-container {
       display: flex;
       justify-content: space-evenly;

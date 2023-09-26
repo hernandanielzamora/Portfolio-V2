@@ -34,11 +34,11 @@ const Summary = () => {
             <p>{summaryText}</p>
           </div>
           <div className="contacts">
-            <ul className="contacts-container">
-              <a href="mailto:hernandanielzamora@gmail.com" aria-label="Email"><li><FontAwesomeIcon icon={faEnvelope} className="fa-2xl contact-icon" /></li></a>
-              <a href="https://github.com/hernandanielzamora" target="_blank" rel="noreferrer" aria-label="Github"><li><FontAwesomeIcon icon={faGithub} className="fa-2xl contact-icon" /></li></a>
-              <a href="https://www.linkedin.com/in/zamora-hernan/" target="_blank" rel="noreferrer" aria-label="Linkedin"><li><FontAwesomeIcon icon={faLinkedin} className="fa-2xl contact-icon" /></li></a>
-            </ul>
+            <div className="contacts-container">
+              <a href="mailto:hernandanielzamora@gmail.com" aria-label="Send me an Email"><li><FontAwesomeIcon icon={faEnvelope} className="fa-2xl contact-icon" /></li></a>
+              <a href="https://github.com/hernandanielzamora" target="_blank" rel="noreferrer" aria-label="Visit my github Page"><li><FontAwesomeIcon icon={faGithub} className="fa-2xl contact-icon" /></li></a>
+              <a href="https://www.linkedin.com/in/zamora-hernan/" target="_blank" rel="noreferrer" aria-label="Visit my Linkedin Page"><li><FontAwesomeIcon icon={faLinkedin} className="fa-2xl contact-icon" /></li></a>
+            </div>
           </div>
         </div>
         <div className="gif-container">

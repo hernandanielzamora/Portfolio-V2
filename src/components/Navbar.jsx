@@ -31,15 +31,15 @@ const Navbar = () => {
 
   return (
     <ul className="header-container">
-      <div className="name-container">
+      <li className="name-container">
         <a href="#"><li>Hernán Zamora</li></a>
-      </div>
-      <div className="links-container">
+      </li>
+      <li className="links-container">
         <a href="#projects"><li className="navbar-icon">Portfolio</li></a>
         <a href="#aboutme"><li className="navbar-icon">About</li></a>
         <a href="#contact"><li className="navbar-icon">Contact</li></a>
-        <a href="mailto:hernandanielzamora@gmail.com" aria-label="Email"><li className="navbar-icon"><FontAwesomeIcon icon={faEnvelope} className="fa-xl" /></li></a>
-      </div>
+        <a href="mailto:hernandanielzamora@gmail.com" aria-label="Send me an Email"><li className="navbar-icon"><FontAwesomeIcon icon={faEnvelope} className="fa-xl" /></li></a>
+      </li>
 
       <div
         className="mobile-menu-button"
@@ -55,7 +55,7 @@ const Navbar = () => {
         <FontAwesomeIcon icon={faBars} className="fa-xl" />
       </div>
 
-      <div className={`mobile-menu ${isMobileMenuVisible ? 'visible' : ''}`}>
+      <li className={`mobile-menu ${isMobileMenuVisible ? 'visible' : ''}`}>
         <div
           className="mobile-menu-close"
           onClick={toggleMobileMenu}
@@ -72,8 +72,8 @@ const Navbar = () => {
         <a href="#projects"><li className="navbar-icon">Portfolio</li></a>
         <a href="#aboutme"><li className="navbar-icon">About</li></a>
         <a href="#contact"><li className="navbar-icon">Contact</li></a>
-        <a href="mailto:hernandanielzamora@gmail.com" aria-label="Email"><li className="navbar-icon"><FontAwesomeIcon icon={faEnvelope} className="fa-xl" /></li></a>
-      </div>
+        <a href="mailto:hernandanielzamora@gmail.com" aria-label="Send me an Email"><li className="navbar-icon"><FontAwesomeIcon icon={faEnvelope} className="fa-xl" /></li></a>
+      </li>
     </ul>
   );
 };

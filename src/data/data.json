@@ -3,7 +3,7 @@
     "id": 1,
     "name": "How Much?",
     "description": "This project helps the user keep track of the expenses. The user can add a category and then add a payments inside that category",
-    "img": "https://i.postimg.cc/nXLgL8LL/descarga.png",
+    "img": "https://i.postimg.cc/BnZh1F6z/howMuch.webp",
     "link": "https://how-much.onrender.com/",
     "github": "https://github.com/hernandanielzamora/How-Much"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Zeta Store",
     "description": "A project built for being a full functionall market page. Where the user cand trade (sell or buy) his favourite csgo's skins.",
-    "img": "https://github.com/hernandanielzamora/Zeta-Store/blob/master/media/logo.png?raw=true",
+    "img": "https://i.postimg.cc/jjLZMryQ/zetaLogo.webp",
     "link": "https://zetastore.netlify.app/",
     "github": "https://github.com/hernandanielzamora/Zeta-Store"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Vacay Inn",
     "description": "Room reservation web, allows users to sign up and log in to see detailed data about rooms and create reservations. Counts with a back-end server built with Ruby on Rails. Frontend uses React/Redux.",
-    "img": "https://i.postimg.cc/Tys6xdqG/vacayInn.png",
+    "img": "https://i.postimg.cc/xCmgSyxX/vacayInn.webp",
     "link": "https://vacay-inn.onrender.com/",
     "github": "https://github.com/hernandanielzamora/Capstone-Front-End"
   },
@@ -35,7 +35,7 @@
     
     "name": "Recipe App",
     "description": "Recipe App is a Ruby on Rails application that allows a user to login to a food recipe page where the user can perform actions based on authorization like, add foods and recipes, generate a shopping list, etc.",
-    "img": "https://i.postimg.cc/d0F1n5hS/recipe-app.png",
+    "img": "https://i.postimg.cc/NjNd802j/recipe-App.webp",
     "link": "https://recipe-app-7xhc.onrender.com/",
     "github": "https://github.com/hernandanielzamora/Recipe-App"
   }
